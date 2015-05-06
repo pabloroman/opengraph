@@ -1,4 +1,4 @@
-<?php namespace pabloroman\Opengraph;
+<?php namespace Pabloroman\Opengraph;
 
 use Illuminate\Cache\Repository;
 

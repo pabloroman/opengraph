@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Paloroman\\Opengraph\\": "src/"
+            "Pabloroman\\Opengraph\\": "src/"
         }
     }
 }
