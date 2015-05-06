@@ -1,0 +1,33 @@
+{
+    "name": "pabloroman/opengraph",
+    "description": "Laravel 5 - Retrieve page info using opengraph tags",
+    "keywords": ["laravel", "opengraph"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Pablo Roman",
+            "email": "pablo@thenextweb.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/thenextweb/Embed"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~5.0",
+        "illuminate/cache": "~5.0",
+        "thenextweb/Embed": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "thenextweb\\opengraph\\": "src/"
+        }
+    }
+}
