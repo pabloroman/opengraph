@@ -1,4 +1,4 @@
-<?php namespace Pabloroman\Opengraph;
+<?php namespace Pabloroman\Opengraph\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
