@@ -2,6 +2,9 @@
 
 use Illuminate\Support\ServiceProvider;
 
+use Pabloroman\Opengraph\Opengraph;
+use Pabloroman\Opengraph\Embed;
+
 /**
  * Class OpengraphServiceProvider
  * 
