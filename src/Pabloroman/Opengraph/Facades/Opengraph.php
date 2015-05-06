@@ -3,13 +3,13 @@
 use Illuminate\Support\Facades\Facade;
 
 /**
- * Class Oembed
+ * Class Opengraph
  * 
  * @package pabloroman\Opengraph\Facades
  * @author  Pablo Roman  <pablo@thenextweb.com>
  * @license https://github.com/pabloroman/Opengraph/blob/master/LICENSE MIT
  */
-class Oembed extends Facade {
+class Opengraph extends Facade {
 
     /**
      * Get the registered name of the component.
@@ -18,7 +18,7 @@ class Oembed extends Facade {
      */
     protected static function getFacadeAccessor()
     {
-        return 'opengraph';
+        return 'Opengraph';
     }
 
 }
