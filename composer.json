@@ -26,8 +26,8 @@
         "mockery/mockery": "0.9.*"
     },
     "autoload": {
-        "psr-0": {
-            "thenextweb\\opengraph\\": "src/"
+        "psr-4": {
+            "Paloroman\\Opengraph\\": "src/"
         }
     }
 }
