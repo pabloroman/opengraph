@@ -38,7 +38,7 @@ class OpengraphServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->bindShared('Opengraph', function ($app)
+		$this->app->singleton('Opengraph', function ($app)
 		{
 			return new Opengraph(new Embed, $app['cache.store']);
 		});
