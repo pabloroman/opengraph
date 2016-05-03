@@ -43,7 +43,7 @@ class Opengraph {
 	 * @param  null|array   $options
 	 * @return false|\Embed\Adapters\AdapterInterface
 	 */
-	public function get($url, array $options = null)
+	public function get($url, array $options = [])
 	{
         return $this->embed->get($url, $options);
     }
@@ -55,7 +55,7 @@ class Opengraph {
      * @param  null|array   $options
      * @return mixed
      */
-    public function cache($url, array $options = null)
+    public function cache($url, array $options = [])
     {
         $lifetime = array_get($options, 'lifetime', 60);
 
